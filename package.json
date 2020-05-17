@@ -1,0 +1,17 @@
+{
+    "name": "dark-mode",
+    "version": "1.0.0",
+    "description": "add a dark theme to website site with css and js",
+    "main": "index.js",
+    "repository": "git@github.com:sampow/dark-mode.git",
+    "author": "Samuel Niums Aminou",
+    "license": "MIT",
+    "scripts": {
+        "start": "open ./index.html",
+        "style": "node-sass-chokidar ./style.scss ./style.css  --watch  -source-map true --output-style compressed "
+    },
+    "dependencies": {
+        "node-sass-chokidar": "^1.4.0",
+        "open": "^7.0.3"
+    }
+}
