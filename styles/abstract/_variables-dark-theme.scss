@@ -1,0 +1,64 @@
+/* 
+    use the dark mode with safari 
+
+La caractéristique média prefers-color-scheme permet de détecter les préférences exprimées par l'utilisateur quant au thème à utiliser (sombre ou clair).
+*/
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//         --color-primary: #9a97f3;
+//         --color-accent: #818cab;
+//         --color-font: #e1e1ff;
+//         --color-bg: #161625;
+//         --color-heading: #818cab;
+//     }
+// }
+
+
+[data-theme='darkInvert'] {
+
+    html {
+        filter: invert(1) hue-rotate(.5turn);
+    }
+
+    img {
+        filter: invert(1) hue-rotate(.5turn);
+    }
+
+    img:not(:hover) {
+        opacity: .7;
+        transition: opacity .25s ease-in-out;
+    }
+
+    --color-bg:#161625;
+    
+    --font-link-color: var(--color-contrast-lower);
+    --font-link-hover-color: var(--color-contrast-lower);
+    --font-heading-color: var(--color-contrast-lower);
+    --font-color: var(--color-contrast-lower);
+
+} 
+
+
+[data-theme='dark'] {    
+    // COLOR PRIMARY
+    --color-primary-lighter: #9a97f3;
+    --color-primary-light: #9a97f3;
+    --color-primary: #9a97f3;
+    --color-primary-dark: #9a97f3;
+    --color-primary-darker: #9a97f3;
+    // Color Accent
+    --color-accent-lighter: #818cab;
+    --color-accent-light: #818cab;
+    --color-accent: #818cab;
+    --color-accent-dark: #818cab;
+    --color-accent-darker: #818cab;
+    
+    --color-bg:#161625;
+    
+    --font-link-color: var(--color-contrast-lower);
+    --font-link-hover-color: var(--color-contrast-lower);
+    --font-heading-color: var(--color-contrast-lower);
+    --font-color: var(--color-contrast-lower);
+
+
+}
