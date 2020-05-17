@@ -1,0 +1,28 @@
+/* Fonts ------------------------------------- */
+
+/* ----------------------------------------------
+
+    font-family: 'Lato', sans-serif;
+    light 300
+    regular 400
+    bold 700
+
+
+    font-family: 'Sansita', sans-serif;
+    regular 400
+    bold 700
+    black 900
+
+---------------------------------------------- */
+
+/* EXEMPLE LATO */
+// @include font-face("Lato", $lato-font-path, 'AvenirLTW01_55Roman', 300, "normal"); //thin
+
+/* Accessibility Settings -------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0s !important;
+        transition-duration: 0s !important;
+    }
+}
