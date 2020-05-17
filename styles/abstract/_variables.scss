@@ -1,0 +1,58 @@
+:root,
+[data-theme='default'] {
+    /**
+    * FONT / TYPOGRAPHY
+    **/
+
+    --font-main: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    --font-secondary: 'Sansita', 'Helvetica', 'Arial', sans-serif;
+    --font-title: 'Sansita', 'Helvetica', 'Helvetica', 'Arial', sans-serif;
+    --font-link-color: var(--color-primary-darker);
+    --font-link-hover-color: var(--color-accent-darker);
+    --font-heading-color: var(--color-accent-darker);
+    --font-color: var(--color-contrast-higher);
+
+    --font-size: 1.6rem;
+    --font-size-xs: 0.8rem;
+    --font-size-sm: 1.2rem;
+    --font-size-md: 1.6rem;
+    --font-size-lg: 2.4rem;
+    --font-size-xl: 3.2rem;
+
+    /**
+    * LAYOUT
+    **/
+    --bg-color: #fff;
+
+    /**
+    * HELPERS
+    */
+    --spacing: 1rem;
+    --spacing-xs: calc(0.6 * var(--spacing));
+    --spacing-sm: calc(1.2 * var(--spacing));
+    --spacing-md: calc(2.4 * var(--spacing));
+    --spacing-lg: calc(3.6 * var(--spacing));
+    --spacing-xl: calc(4.8 * var(--spacing));
+
+    --margin: calc(1 * var(--spacing)); // 12 px
+    --margin-xs: calc(0.6 * var(--margin));
+    --margin-sm: calc(1.2 * var(--margin));
+    --margin-md: calc(2.4 * var(--margin));
+    --margin-lg: calc(3.6 * var(--margin));
+    --margin-xl: calc(4.8 * var(--margin));
+
+    --padding: calc(1 * var(--spacing));
+    --padding-xs: calc(0.6 * var(--padding));
+    --padding-sm: calc(1.2 * var(--padding));
+    --padding-md: calc(2.4 * var(--padding));
+    --padding-lg: calc(3.6 * var(--padding));
+    --padding-xl: calc(4.8 * var(--padding));
+}
+
+/**
+# SASS VARIABLES
+**/
+
+$lato-font-path: 'assets/fonts/Lato/' !default;
+$sansita-font-path: 'assets/fonts/Sansita/' !default;
+$font-path: 'assets/fonts/' !default;
