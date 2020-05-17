@@ -1,0 +1,38 @@
+// abstract
+@import "styles/abstract/mixins";
+@import "styles/abstract/functions";
+@import "styles/abstract/variables-colors";
+@import "styles/abstract/variables";
+@import "styles/abstract/variables-dark-theme";
+@import "styles/abstract/animations";
+
+// vendor
+@import "styles/vendors/normalize";
+@import "styles/vendors/hint";
+
+// base
+@import "styles/base/global";
+@import "styles/base/fonts";
+@import "styles/base/helpers";
+@import "styles/base/typography";
+@import "styles/base/media";
+@import "styles/base/form";
+@import "styles/base/table";
+
+// Commmponents
+@import "styles/components/button";
+@import "styles/components/switch";
+
+// Layout
+@import "styles/layout/global";
+@import "styles/layout/header";
+@import "styles/layout/intro";
+@import "styles/layout/about";
+@import "styles/layout/banner";
+@import "styles/layout/footer";
+
+// mediaqueries
+// @import "styles/mediaqueries/header-mediaqueries";
+
+
+
